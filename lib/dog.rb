@@ -8,7 +8,6 @@ class Dog
     @id = id
     @name = name
     @breed = breed
-    @@all << self
   end
   
   def self.create_table
